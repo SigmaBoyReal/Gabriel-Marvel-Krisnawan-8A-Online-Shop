@@ -1,0 +1,134 @@
+/*
+primary color:443627
+secondary color:EFDCAB    
+body background color:F2F6D0
+doo doo color :D98324
+*/
+body {
+    background-color:#F2F6D0 ;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+header {
+    width: 100%;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #443627;
+}
+.logo img {
+    width: 200px;
+    height: 200px;
+    padding: 0px 100px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1px 10px;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #443627;
+}
+nav ul li a:hover {
+    color:#EFDCAB ;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: purple;
+    background-color: orangered;
+    border-radius: 1px 1;
+}
+#about {
+    background-image: url(./asset/Catty\ 2.0.gif);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #f0f1f7;
+}  
+#about h2 {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 40px;
+}
+#about p {
+  width: 50%;
+  padding-left: 40px;
+  line-height: 1.7em;
+}
+#product {
+    width: 55%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+}
+#product h2 {
+    text-align: center;
+    color: burlywood;
+}
+#product h2:hover {
+  transform: rotateY('angle');
+  transition: all .8s ease-in-out;
+}
+  .card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  font-family: arial;
+}
+  .card:hover {
+    transform: scale(.9);
+    transition: all .7s ease-in-out;
+    box-shadow: 4px 4px 14px bisque;
+  }
+  
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+}
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 1%;
+}
+.card button :hover {
+    opacity: 0.7;
+}
+  .card button img:hover {
+    opacity: 0.7;
+    transform: scale(0,9);
+    transition: all .3s ease-in-out;
+}
+
+footer {
+  text-align: center;
+  background-color: brown;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 0 55px 0 55px;
+}
